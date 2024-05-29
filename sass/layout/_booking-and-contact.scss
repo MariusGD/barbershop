@@ -1,0 +1,28 @@
+.booking-and-contact {
+  background-color: #191c26;
+}
+
+.contact__address {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  margin-top: 40px;
+}
+
+.working-hours {
+  margin-top: 70px;
+
+  &__description {
+    margin-top: 20px;
+  }
+
+  .section__sub-heading {
+    color: var(--heading-color);
+  }
+}
+
+@media screen and (min-width: $desktop-breakpoint) {
+  .contact__address {
+    flex-direction: column;
+  }
+}

@@ -1,2 +1,2 @@
-# barbershop
-site barbershop
+# Barbeshop - Website
+
